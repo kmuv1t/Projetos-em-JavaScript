@@ -1,0 +1,30 @@
+<script>
+
+	function pulaLinha() {
+
+	    document.write("<br>");
+	    document.write("<br>");
+
+}
+
+	function mostra(frase) {
+
+	    document.write(frase);
+	    pulaLinha();
+
+}
+	
+	var fn = parseInt(prompt("Digite o número de familiares a ser cadastrado"));
+	var c = 1;
+	var idade = 0;
+	var Tidade = 0;
+
+	while(c <= fn) {
+		var idade = parseInt(prompt("Digite sua idade:"));
+		Tidade = Tidade + idade;
+		c++
+	}
+
+	mediaIdades = Tidade / fn;
+	mostra(mediaIdades);
+</script>

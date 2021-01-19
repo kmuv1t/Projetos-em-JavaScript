@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+<script>
+
+    var loginCadastrado = "Carlos";
+    var senhaCadastrada = "Solrac";
+    contador = 1;
+
+    while(contador < 4){
+    	var loginInformado = prompt("Informe seu login");
+    	var senhaInformada = prompt("Informe sua senha");
+
+	    if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+
+	        alert("Bem-vindo ao sistema " + loginInformado);
+	        break;
+	    } else {
+
+	        alert("Login inválido. Tente novamente");
+	    }
+	    contador += 1; // ou contador++
+}
+</script>
