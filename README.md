@@ -1,2 +1,3 @@
-# Projetos em JavaScript
- Exercícios de JS
+# JavaScript Exercises
+
+ A compilation of JS study exercises
